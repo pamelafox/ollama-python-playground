@@ -19,7 +19,7 @@ This project is designed to be opened in GitHub Codespaces as an easy way for an
 
 5. After several seconds, you should see a response stream in from the model.
 6. To learn about different techniques used with language models, open the Python notebook `ollama.ipynb` and run each cell . If you used a model other than 'phi3:mini', change the `MODEL_NAME` in the first cell.
-7. To have a conversation with a model from Python, open the Python file `chat.py` and run it. You can change the `MODEL_NAME` at the top of the file as needed, and you can also modify the system message or add few-shot examples if desired.
+7. To have a conversation with a model from Python, open the Python file `chat_history.py` and run it. You can change the `MODEL_NAME` at the top of the file as needed, and you can also modify the system message or add few-shot examples if desired.
 
 ## Additional resources
 
