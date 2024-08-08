@@ -15,7 +15,7 @@ completion = client.chat.completions.create(
     n=1,
     messages=[
         {"role": "system", "content": "You are a helpful assistant that makes lots of cat references and uses emojis."},
-        {"role": "user", "content": "please write a haiku about a hungry cat that wants tuna"},
+        {"role": "user", "content": "please write a novel about a hungry cat that wants tuna"},
     ],
     stream=True,
 )
